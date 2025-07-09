@@ -1,1 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/jXDbAj1F)
+# Sentiment Classification on Movie Reviews using CNN and LSTM
+
+This project builds and evaluates deep learning models to classify IMDB movie reviews as positive or negative.
+
+## Objectives
+- Load, clean, and preprocess raw IMDB review data
+- Tokenize and pad sequences
+- Build and compare CNN and LSTM-based deep learning models
+- Use callbacks such as early stopping and learning rate reduction
+- Evaluate model accuracy and analyze review length distribution
+
+## Key Techniques
+- Text preprocessing and tokenization
+- CNN and LSTM architectures using Keras
+- Review length histogram analysis
+- Label encoding, sequence padding, vocabulary building
+- Performance evaluation on holdout test set
+
+## Libraries Used
+- TensorFlow / Keras
+- NumPy, Matplotlib
+- Regular expressions, os
+
+## Dataset
+- IMDB sentiment review dataset split into `pos/` and `neg/` directories
